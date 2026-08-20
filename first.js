@@ -7,6 +7,7 @@ const React ={
 
         for(let key in styles){
           element.styles[key]=styles[key];
+        }
         return element;
     }
 }
