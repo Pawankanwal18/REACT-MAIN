@@ -1,5 +1,5 @@
 const { createElement } = require("react");
-
+style=
 const React ={
 
     createElement : function(tag,style,children){
