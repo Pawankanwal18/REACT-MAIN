@@ -12,6 +12,13 @@ const React ={
     }
 }
 
+ const ReactDOM = {
+
+    render : function(element,root){
+        root.append(element);
+    }
+ }
+
  
 const header1 = React.createElement('h1',{fontSize:"30px", backgroundColor:"blue", color:"white"},"Hello coder dosto");
 const header2 = React.createElement('h2',{fontSize:"30px", backgroundColor:"blue", color:"white"},"kase ho app");
