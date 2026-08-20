@@ -4,7 +4,9 @@ const React ={
         const element= document.createElement(tag);
 
         element.innerText = children;
-        Object.assign(element.style, styles);
+
+        for(let key in styles){
+          element.styles[key]=styles[key];
         return element;
     }
 }
